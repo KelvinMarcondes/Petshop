@@ -1,0 +1,185 @@
+/* RESET NAVEGADOR */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+/* HEADER */
+header{
+    top: 5px;
+    position: fixed;
+    padding: 10px 10px;
+    text-align: center;
+    background: #2e8b57;
+    width: 100%;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.menu a{
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: #FFFAFA;
+}
+
+#selecionado{
+	color:black;
+}
+
+
+.menu a:hover{
+    color: #CDC9C9 ;
+}
+
+
+
+/*  BOTAO PESQUISA */
+.Pesquisa{
+    background-color:#FFFAFA;
+    border: none;
+    border-radius:8px;
+    width:370px;
+    height:25px;
+}
+    
+.srcPesquisa{
+    float: center;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:15px;
+    border: none;
+    height:25px;
+    width:300px;
+}
+
+.btnPesquisa{
+    border:none;
+    float: right;
+    height:25px;
+    border-radius:7px;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+
+
+
+/* BODY */
+body{
+    height: 100%;
+    background-image: url(../image/bg2.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+/* PROMOÇOES BLACKFRIDAY  */
+.blackfriday{
+	margin-top:60px;
+    text-align: center;
+}
+
+.blackfriday img{
+    width: 95%;
+}
+
+
+
+
+
+/* PARCEIROS */
+
+
+.corpo{
+    text-align: center;
+    align-items: center;
+    margin: 0 2.5%;
+    font-family: 'Righteous', cursive;
+    background-color: #ffffff6f;
+}
+
+.corpo h1{
+    font-size: 30px;
+}
+
+.corpo h3 {
+    font-size: 20px;
+}
+
+.pagamento h3{
+    font-size: 23px;
+}
+
+#separador{
+    width: 95%;
+    height: 70px;
+}
+
+
+.parceiros img{
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    margin: 0px 40px;
+}
+
+
+
+
+
+
+
+/* RODAPÉ SITE */
+#rodape{
+    margin-top: 40px;
+    padding-top:32px;
+}
+
+.rodape{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rodape .direitosreservados{
+    margin-bottom: 8px;
+    text-align: center;
+    color: #777777;
+}
+
+.rodape ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.rodape a{
+    color: #282b2d;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.rodape li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.rodape .redesocial{
+    text-align: center;
+    background-color: #2e8b57;
+}
+
+.rodape img{
+    padding: 8px 10px ;
+    text-align: center;
+    height:40px;
+}

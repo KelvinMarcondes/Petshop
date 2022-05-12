@@ -1,0 +1,192 @@
+
+/* RESET NAVEGADOR */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+/* HEADER */
+header{
+    top: 5px;
+    position: fixed;
+    padding: 10px 10px;
+    text-align: center;
+    background: #2e8b57;
+    width: 100%;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.menu a{
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: #FFFAFA;
+}
+
+#selecionado{
+	color:black;
+}
+
+
+.menu a:hover{
+    color: #CDC9C9 ;
+}
+
+
+
+/*  BOTAO PESQUISA */
+.Pesquisa{
+    background-color:#FFFAFA;
+    border: none;
+    border-radius:8px;
+    width:370px;
+    height:25px;
+}
+    
+.srcPesquisa{
+    float: center;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:15px;
+    border: none;
+    height:25px;
+    width:300px;
+}
+
+.btnPesquisa{
+    border:none;
+    float: right;
+    height:25px;
+    border-radius:7px;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+
+
+
+/* BODY */
+body{
+    background-image: url(../image/bg2.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+/*-------------------------------------------Não mexer acima-----------------------------------------------*/
+
+
+
+
+.cadastro input, label {
+    display: block;
+    width: 100%;
+}
+
+.cadastro {
+    margin-top: 60px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fffafa9f;
+    border-radius: 6%;
+    padding: 65px;
+    color: black;
+    font-weight: bolder;
+}
+
+#form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#menu h1 {
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.cadastro input{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cadastro button{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #2e8b57;
+    color: white;
+    width: 40%;
+    padding: 10px;
+}
+
+.opçoes {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    outline: none;
+    width: 200px;
+    height: 30px;
+} 
+
+
+
+
+
+
+
+/* ------------------- NAO MEXER ABAIXO -----------------------*/
+/* RODAPÉ SITE */
+#rodape{
+    margin-top: 40px;
+    padding-top:32px;
+}
+
+.rodape{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rodape .direitosreservados{
+    margin-bottom: 8px;
+    text-align: center;
+    color: #777777;
+}
+
+.rodape ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.rodape a{
+    color: #282b2d;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.rodape li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.rodape .redesocial{
+    text-align: center;
+    background-color: #2e8b57;
+}
+
+.rodape img{
+    padding: 8px 10px ;
+    text-align: center;
+    height:40px;
+}
